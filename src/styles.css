@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div{
+  background-color: rgb(218, 209, 226);
+  border-radius: 5%;
+  opacity: 0.8;
+}
+
+img{
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(160, 64, 64);
+  width: 2.3%;
+  height: 10%;
+  float: left;
+}
+
+body{
+  background-image: url('https://pbs.twimg.com/media/EJPi7KzVAAE-R02.jpg');
+  background-size: 100%;
+
+}
+
+button{
+  border-radius: 50%;
+  color: black;
+  background-color: rgb(64, 104, 31);
+  width: 5%;
+}
