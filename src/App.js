@@ -43,7 +43,7 @@ render(){
     <div>
       <div class='log'>
        <img src= {this.state.imageURL}/>
-      <h1>{this.state.isOn ? 'Welcome User':'Thank you for visiting'}</h1>
+      <h1 class = 'logtext'>{this.state.isOn ? 'Welcome User':'Thank you for visiting'}</h1>
   <button onClick = {this.switch}>{this.state.isOn ? 'logout': 'login'}</button>
   </div>
     </div>

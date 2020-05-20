@@ -12,11 +12,11 @@
 
 img{
   border-radius: 50%;
-  border-style: solid;
-  border-color: rgb(160, 64, 64);
-  width: 2.3%;
-  height: 10%;
-  float: left;
+    border-style: solid;
+    border-color: rgb(160, 64, 64);
+    width: 80%;
+    height: 20%;
+    float: left;
 }
 
 body{
@@ -29,13 +29,22 @@ button{
   border-radius: 50%;
   color: black;
   background-color: rgb(64, 104, 31);
-  width: 5%;
+  width: 45%;
+  height: 50%;
+  
 }
 
 .log{
- padding: 0.5%;
- background-color: rgb(218, 209, 226);
- border-radius: 5%;
- opacity: 0.8;
+  padding-left: 3%;
+  background-color: rgb(218, 209, 226);
+  border-radius: 5%;
+  opacity: 0.8;
+  padding-bottom: 20%;
+  float: right;
+
+}
+.logtext{
+text-align: center;
+font-size: 270%;
 }
 
