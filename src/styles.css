@@ -3,10 +3,11 @@
   text-align: center;
 }
 
-div{
-  background-color: rgb(218, 209, 226);
-  border-radius: 5%;
-  opacity: 0.8;
+.post{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 img{
@@ -30,3 +31,11 @@ button{
   background-color: rgb(64, 104, 31);
   width: 5%;
 }
+
+.log{
+ padding: 0.5%;
+ background-color: rgb(218, 209, 226);
+ border-radius: 5%;
+ opacity: 0.8;
+}
+
